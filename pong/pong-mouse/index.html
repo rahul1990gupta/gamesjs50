@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Player Pong</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Single Player Pong</h1>
+    <div id="welcome-screen">
+        <h2>Welcome to Single Player Pong!</h2>
+        <button id="start-button">Start Game</button>
+    </div>
+    <div id="game-over-screen" style="display: none;">
+        <h2>Game Over!</h2>
+        <button id="restart-button">Start New Game</button>
+    </div>
+    <div class="score-area">
+        Score
+        <div class="player-score">0</div>
+    </div>
+    <canvas id="game-area"></canvas>
+    <script src="gameObjects.js"></script> 
+    <script src="script.js"></script> 
+</body>
+</html>
